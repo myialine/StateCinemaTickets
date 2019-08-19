@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateCinemaTickets", "StateCinemaTickets.csproj", "{27AB69DD-9C17-4782-80E7-257DCC4E6C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateCinemaUnitTestProject", "..\StateCinemaUnitTestProject\StateCinemaUnitTestProject.csproj", "{87F6CE77-BC87-42F6-8BC3-6B1A7F139F40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateCinemaTestProject", "..\UnitTestProject1\StateCinemaTestProject.csproj", "{DDF11824-2428-4ACC-9F1B-4BA296EC92FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{27AB69DD-9C17-4782-80E7-257DCC4E6C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27AB69DD-9C17-4782-80E7-257DCC4E6C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27AB69DD-9C17-4782-80E7-257DCC4E6C8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87F6CE77-BC87-42F6-8BC3-6B1A7F139F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87F6CE77-BC87-42F6-8BC3-6B1A7F139F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87F6CE77-BC87-42F6-8BC3-6B1A7F139F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87F6CE77-BC87-42F6-8BC3-6B1A7F139F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF11824-2428-4ACC-9F1B-4BA296EC92FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF11824-2428-4ACC-9F1B-4BA296EC92FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF11824-2428-4ACC-9F1B-4BA296EC92FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF11824-2428-4ACC-9F1B-4BA296EC92FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
