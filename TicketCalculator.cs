@@ -37,7 +37,7 @@ namespace StateCinemaTickets
             return this.totalPrice;
         }
 
-        public double AdultBefore5Price(int quantity, string person, double time)
+        public double AdultBefore5Price(int quantity, string person, int time)
         {
           
             if (quantity > 0 && person == "adult" && time < 0500 && time > 0100)
@@ -48,7 +48,7 @@ namespace StateCinemaTickets
             return this.totalPrice;
         }
 
-        public double AdultAfter5Price(int quantity, string person, double time)
+        public double AdultAfter5Price(int quantity, string person, int time)
         {
             if (quantity > 0 && person == "adult" && time >= 0500 && time < 1100)
             {
@@ -57,7 +57,7 @@ namespace StateCinemaTickets
             }
             return this.totalPrice;
         }
-        public double AdultPrice(int quantity, string person, string day, double time)
+        public double AdultPrice(int quantity, string person, string day, int time)
         {
 
             if (day == "tuesday" && person == "adult")
