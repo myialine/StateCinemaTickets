@@ -5,7 +5,7 @@ namespace StateCinemaTickets
 {
     public class TicketCalculator
     {
-        public double TadultAfter5price { get; set; }
+        public double TadultAfter5Price { get; set; }
         public double TadultBefore5Price { get; set; }
         public double TadultPrice { get; set; }
         public double totalPrice;
@@ -42,8 +42,8 @@ namespace StateCinemaTickets
           
             if (quantity > 0 && person == "adult" && time < 0500 && time > 0100)
             {
-                TadultAfter5price = 14.50;
-                this.totalPrice = TadultAfter5price * quantity;
+                TadultBefore5Price = 14.50;
+                this.totalPrice = TadultBefore5Price * quantity;
             }
             return this.totalPrice;
         }
@@ -52,8 +52,8 @@ namespace StateCinemaTickets
         {
             if (quantity > 0 && person == "adult" && time >= 0500 && time < 1100)
             {
-                TadultAfter5price = 17.50;
-                this.totalPrice = TadultAfter5price * quantity;
+                TadultAfter5Price = 17.50;
+                this.totalPrice = TadultAfter5Price * quantity;
             }
             return this.totalPrice;
         }
@@ -70,7 +70,7 @@ namespace StateCinemaTickets
             }
             else
             {
-                TadultPrice = TadultAfter5price * quantity;
+                TadultPrice = TadultAfter5Price * quantity;
             }
 
             return TadultPrice;
